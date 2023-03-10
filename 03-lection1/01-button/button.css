@@ -1,76 +1,79 @@
 /* Стилизация кнопки */
 
-/* Primary Button */
-.button_primaryDefault {
+.button {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    width: 189px;
     height: 48px;
-    background-color: var(--blue-btnPrimaryDefault);
     border-radius: 8px;
-    color: var(--white);
     border: none;
     cursor: pointer;
 }
 
-.button_primaryDefault:hover {
+/* Primary Button */
+.button_primary {
+    background-color: var(--blue-btnPrimaryDefault);
+    color: var(--white);
+}
+
+.button_primary:hover {
     background-color: var(--blue-btnPrimaryHover);
 }
 
-.button_primaryDefault:active {
+.button_primary:active {
     background-color: var(--blue-btnPrimaryHover);
 }
 
-.button_primaryDefault:disabled,
-.button_primaryDefault:hover:disabled {
+.button_primary:disabled,
+.button_primary:hover:disabled {
     opacity: .5;
     cursor: not-allowed;
     background-color: var(--blue-btnPrimaryDefault);
 }
 
 /* Secondary Button  */
-.button_secondaryDefault {
-    height: 48px;
+.button_secondary {
     background-color: var(--purple);
-    border-radius: 8px;
     color: var(--white);
-    border: none;
-    cursor: pointer;
 }
 
-.button_secondaryDefault:hover {
+.button_secondary:hover {
     background-color: var(--blue-btnSecondaryHover);
 }
 
-.button_secondaryDefault:active {
+.button_secondary:active {
     background-color: var(--blue-btnSecondaryHover);
 }
 
-.button_secondaryDefault:disabled,
-.button_secondaryDefault:hover:disabled {
+.button_secondary:disabled,
+.button_secondary:hover:disabled {
     opacity: .5;
     cursor: not-allowed;
     background-color: var(--purple);
 }
 
 /* Alternate Button  */
-.button_alternateDefault {
-    height: 48px;
+.button_alternate {
     background: none;
     border: 1px solid var(--grey-3);
-    border-radius: 8px;
     color: var(--black);
-    cursor: pointer;
 }
 
-.button_alternateDefault:hover {
+.button_alternate:hover {
     border: 1px solid var(--black);
 
 }
 
-.button_alternateDefault:active {
+.button_alternate:active {
     border: 1px solid var(--black);
 }
 
-.button_alternateDefault:disabled,
-.button_alternateDefault:hover:disabled {
+.button_alternate:disabled,
+.button_alternate:hover:disabled {
     opacity: .5;
     cursor: not-allowed;
     border: 1px solid var(--grey-3);
