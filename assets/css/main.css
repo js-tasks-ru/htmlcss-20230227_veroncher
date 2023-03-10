@@ -1,5 +1,11 @@
 @import '../fonts/fonts.css';
 
+@import "../../components/page/page.css";
+@import "../../components/content/content.css";
+@import "../../components/header/header.css";
+@import "../../components/footer/footer.css";
+
+
 :root {
     --white: #ffffff;
     --black: #212429;
@@ -11,6 +17,7 @@
     --grey-2: #DDE2E5;
     --grey-3: #ACB5BD;
     --grey-4: #495057;
+    --grey-5: #F9FAFC;
 
     --error: var(--red);
     --success: var(--blue);
@@ -22,82 +29,4 @@
 * {
     font-family: 'Roboto', sans-serif;
     margin: 0;
-}
-
-body {
-    position: relative;
-    width: 1440px;
-    height: 1657px;
-    background: #FFFFFF;
-}
-
-header>h1 {
-    position: absolute;
-    width: 670px;
-    height: 64px;
-    left: 160px;
-    top: 96px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 50px;
-    line-height: 64px;
-    color: #212429;
-}
-
-.Rectangle3 {
-    position: absolute;
-    width: 1440px;
-    height: 1px;
-    left: 0px;
-    top: 237px;
-    background: #DDE2E5;
-    z-index: 999; /* По макету этот прямоугольник перекрывается нижним. Так правильно или я что-то не понимаю? */
-}
-
-.Rectangle5 {
-    position: absolute;
-    width: 1440px;
-    height: 1036px;
-    left: 0px;
-    top: 237px;
-    background: #F9FAFC;
-}
-
-.Rectangle6 {
-    position: absolute;
-    width: 1440px;
-    height: 1px;
-    left: 0px;
-    top: 1273px;
-    background: #DDE2E5;
-}
-
-footer>h2 {
-    position: absolute;
-    width: 111px;
-    height: 48px;
-    left: 682px;
-    top: 1345px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 38px;
-    line-height: 48px;
-    color: #212429;
-}
-
-footer>p {
-    position: absolute;
-    width: 640px;
-    height: 96px;
-    left: 417px;
-    top: 1425px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    text-align: center;
-    color: #212429;
 }
