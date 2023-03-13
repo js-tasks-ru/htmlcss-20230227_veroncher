@@ -1,0 +1,59 @@
+.skeleton {
+    border: 1px solid var(--grey-3);
+    border-radius: 8px;
+    width: 579px;
+    height: 192px;
+    padding: 24px 24px 0;
+}
+
+.top {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    gap: 24px;
+}
+
+.rectangle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-grow: 2;
+}
+
+.circle {
+    width: 64px;
+    height: 64px;
+    border-radius: 32px;
+    background-color: var(--grey-2);
+}
+
+.rectangle1 {
+    width: 172px;
+    height: 20px;
+    background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
+}
+
+.rectangle2 {
+    width: 257px;
+    height: 20px;
+    background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
+}
+
+.bottom {
+    margin: 32px 0;
+}
+
+.rectangle3 {
+    margin-bottom: 8px;
+    width: 515px;
+    height: 20px;
+    background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
+}
+
+.rectangle4 {
+    width: 515px;
+    height: 20px;
+    background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
+}
