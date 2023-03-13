@@ -7,7 +7,7 @@ figma: [https://www.figma.com/file/LavZmQfQccqyrTMzoSJYNu/csscourse1?node-id=171
 ## Поддержка
 
 95% поддержки в целом. Не поддерживается в Internet Explorer.
-
+ 
 [caniuse](https://caniuse.com/details)
 
 ## Тонкости
