@@ -30,7 +30,6 @@
 }
 
 .accordion__summary::-webkit-details-marker {
-    /* нестандартный псевдоэлемент Google Chrome */
     display: none;
 }
 
