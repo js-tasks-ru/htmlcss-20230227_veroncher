@@ -3,6 +3,8 @@
     border-radius: 8px;
     max-width: 354px;
     padding: 16px 24px 24px;
+    display: flex;
+    flex-direction: column;
 }
 
 .histogram__top {
@@ -28,7 +30,7 @@
     font-size: 16px;
     line-height: 24px;
     text-align: right;
-    color: var(--blue-1);
+    color: var(--blue-btnPrimaryDefault);
 }
 
 .histogram__content {
@@ -41,133 +43,14 @@
 }
 
 .histogram__chart {
+    height: 50px;
     display: flex;
     align-items: flex-end;
     justify-content: center;
 }
 
 .histogram__chart-item {
-    background-color: var(--blue-1);
+    background-color: var(--blue-btnPrimaryDefault);
     margin-right: 1px;
     flex-basis: 9px;
-}
-
-.histogram__chart-item:nth-child(1) {
-    height: 100%;
-}
-
-.histogram__chart-item:nth-child(2) {
-    height: 20%;
-}
-
-.histogram__chart-item:nth-child(3) {
-    height: 10%;
-}
-
-.histogram__chart-item:nth-child(4) {
-    height: 50%;
-}
-
-.histogram__chart-item:nth-child(5) {
-    height: 10%;
-}
-
-.histogram__chart-item:nth-child(6) {
-    height: 90%;
-}
-
-.histogram__chart-item:nth-child(7) {
-    height: 30%;
-}
-
-.histogram__chart-item:nth-child(8) {
-    height: 20%;
-}
-
-.histogram__chart-item:nth-child(9) {
-    height: 90%;
-}
-
-.histogram__chart-item:nth-child(10) {
-    height: 30%;
-}
-
-.histogram__chart-item:nth-child(11) {
-    height: 50%;
-}
-
-.histogram__chart-item:nth-child(12) {
-    height: 10%;
-}
-
-.histogram__chart-item:nth-child(13) {
-    height: 100%;
-}
-
-.histogram__chart-item:nth-child(14) {
-    height: 20%;
-}
-
-.histogram__chart-item:nth-child(15) {
-    height: 70%;
-}
-
-.histogram__chart-item:nth-child(16) {
-    height: 80%;
-}
-
-.histogram__chart-item:nth-child(17) {
-    height: 30%;
-}
-
-.histogram__chart-item:nth-child(18) {
-    height: 80%;
-}
-
-.histogram__chart-item:nth-child(19) {
-    height: 40%;
-}
-
-.histogram__chart-item:nth-child(20) {
-    height: 20%;
-}
-
-.histogram__chart-item:nth-child(21) {
-    height: 100%;
-}
-
-.histogram__chart-item:nth-child(22) {
-    height: 60%;
-}
-
-.histogram__chart-item:nth-child(23) {
-    height: 20%;
-}
-
-.histogram__chart-item:nth-child(24) {
-    height: 80%;
-}
-
-.histogram__chart-item:nth-child(25) {
-    height: 50%;
-}
-
-.histogram__chart-item:nth-child(26) {
-    height: 10%;
-}
-
-.histogram__chart-item:nth-child(27) {
-    height: 80%;
-}
-
-.histogram__chart-item:nth-child(28) {
-    height: 10%;
-}
-
-.histogram__chart-item:nth-child(29) {
-    height: 70%;
-}
-
-.histogram__chart-item:nth-child(30) {
-    height: 50%;
 }
