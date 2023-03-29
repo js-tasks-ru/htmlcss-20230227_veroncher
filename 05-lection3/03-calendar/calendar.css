@@ -2,7 +2,7 @@
     background: var(--white);
     border: 1px solid var(--grey-3);
     border-radius: 8px;
-    padding: 28px 36px;
+    padding: 28px 26px 32px;
     width: 100%;
     max-width: 300px;
 }
@@ -54,32 +54,12 @@
     align-items: end;
 }
 
-.calendar__item:nth-child(29) {
+.calendar__item_selected {
     background-color: #4263EB;
     color: var(--white);
 }
 
-.calendar__item:nth-child(30) {
+.calendar__item_pick {
     background: #A0B1F5;
     opacity: 0.2;
-}
-
-.calendar__item:nth-child(31) {
-    background: #A0B1F5;
-    opacity: 0.2;
-}
-
-.calendar__item:nth-child(32) {
-    background: #A0B1F5;
-    opacity: 0.2;
-}
-
-.calendar__item:nth-child(33) {
-    background: #A0B1F5;
-    opacity: 0.2;
-}
-
-.calendar__item:nth-child(34) {
-    background: #4263EB;
-    color: var(--white);
 }
