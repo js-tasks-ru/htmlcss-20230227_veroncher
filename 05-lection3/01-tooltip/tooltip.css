@@ -1,8 +1,6 @@
 .tooltip {
-    display: flex;
+    display: inline-flex;
     position: relative;
-    justify-content: center;
-    margin-top: 100px;
 }
 
 .tooltip__buble {
@@ -28,7 +26,7 @@
     content: "";
     border: 10px solid transparent;
     position: absolute;
-    border-top-color: var(--blue-btnPrimaryDefault);
+    border-top-color: #4263EB;
     top: 100%;
     left: 50%;
     transform: translateX(-50%);
