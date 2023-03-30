@@ -5,7 +5,7 @@
 
 .tooltip__buble {
     display: none;
-    background: var(--blue-btnPrimaryDefault);
+    background: #4263EB;
     box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
     border-radius: 10px;
     padding: 13px 21px 8px;
