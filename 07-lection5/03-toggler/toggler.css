@@ -4,11 +4,6 @@
     gap: 16px;
 }
 
-.toggle__list {
-    display: inline-block;
-    position: relative;
-}
-
 .toggle__input {
     position: absolute;
     clip: rect(0, 0, 0, 0);
@@ -66,5 +61,5 @@
 }
 
 .toggle__input:disabled~.toggle__state {
-    cursor: default;
+    pointer-events: none
 }
