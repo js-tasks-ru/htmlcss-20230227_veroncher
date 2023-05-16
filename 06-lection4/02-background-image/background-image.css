@@ -1,7 +1,5 @@
-@media screen and (min-width: 400px) {
-    .backgroundImage {
-        background-image: url(D:\GitHub\htmlcss-20230227_veroncher\06-lection4\02-background-image\public\forest_400.jpg);
-    }
+.backgroundImage {
+    background-image: url(D:\GitHub\htmlcss-20230227_veroncher\06-lection4\02-background-image\public\forest_400.jpg);
 }
 
 @media screen and (min-width: 768px) {
