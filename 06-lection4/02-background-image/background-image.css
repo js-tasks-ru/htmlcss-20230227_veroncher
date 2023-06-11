@@ -1,0 +1,28 @@
+
+.backgroundImage {
+    background-image: url(D:\GitHub\htmlcss-20230227_veroncher\06-lection4\02-background-image\public\forest_400.jpg);
+}
+
+@media screen and (min-width: 768px) {
+    .backgroundImage {
+        background-image: url(D:\GitHub\htmlcss-20230227_veroncher\06-lection4\02-background-image\public\forest_768.jpg);
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .backgroundImage {
+        background-image: url(D:\GitHub\htmlcss-20230227_veroncher\06-lection4\02-background-image\public\forest_1024.jpg);
+    }
+}
+
+@media screen and (min-width: 2560px) {
+    .backgroundImage {
+        background-image: url(D:\GitHub\htmlcss-20230227_veroncher\06-lection4\02-background-image\public\forest_1024.jpg);
+    }
+}
+
+.backgroundImage {
+    background-color: #cccc;
+    max-width: 100%;
+    background-repeat: no-repeat;
+}
