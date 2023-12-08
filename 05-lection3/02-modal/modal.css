@@ -13,7 +13,7 @@
     padding: 15px 50px 14px;
 }
 
-.modalBackground {
+.modal {
     display: none;
     background: rgba(196, 196, 196, 1);
     position: fixed;
@@ -23,7 +23,7 @@
     z-index: 1;
 }
 
-.modalActive {
+.modal__window {
     position: absolute;
     left: 50%;
     top: 50%;
@@ -55,7 +55,7 @@
     padding-bottom: 14px;
 }
 
-.modal__tittle_text {
+.modal__text {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
